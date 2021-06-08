@@ -17,3 +17,5 @@ django-admin.exe startproject mysite .
 superuser
 ユーザ名：kt777
 パスワード：tsubo1979
+
+home/ken0721/.virtualenvs/ken0721.pythonanywhere.com/lib/python3.6/site-packages/django/http/request.py in get_host, line 111
