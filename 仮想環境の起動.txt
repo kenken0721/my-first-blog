@@ -11,8 +11,13 @@ myvenv\Scripts\activate
 VSCodeでの起動
 . myvenv\Scripts\activate.ps1
 
-プロジェクトの開始
-django-admin.exe startproject mysite .
+ウェブサーバを起動する
+python manage.py runserver
+
+サイトアクセス（127.0.0.8000/admin）
+
+データベースに追加
+python manage.py migrate blog
 
 superuser
 ユーザ名：kt777
